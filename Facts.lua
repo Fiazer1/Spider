@@ -147,3 +147,5 @@ local function notify(text)
         notif:Destroy()
     end)
 end
+
+notify(spiderFacts[math.random(1, #spiderFacts)])
